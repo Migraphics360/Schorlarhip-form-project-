@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>schorlarhip app</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="headingText">
+        <h3>SCHORLASHIP FORM</h3>
+    </div>
+    <div class="mainWrapper">
+        <div class="wrapper">
+            <div class="formDiv">
+                <h3>PERSONAL DATA</h3>
+                <form action="">
+                    <input type="text" id="fname" placeholder="Enter First Name"><br><br>
+                    <label id="fnameError"></label>
+                    <br><br>
+                    <input type="text" id="lname" placeholder="Enter Last Name"><br><br>
+                    <label id="lnameError"></label>
+                    <br><br>
+                    <select id="gender" placeholder="Select Gender">
+                        <option value="">Select Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select><br><br>
+                    <label id="genderError"></label><br><br>
+
+                    <input type="number" id="phoneNum" placeholder="Enter Phone Number"><br><br>
+                    <label id="phoneNumError"></label>
+                    <br><br>
+                    <input type="date" id="age"><br><br>
+                    <label id="ageError"></label><br><br>
+                    <div class="ageDisp" id="dispAge"> Age: </div>
+                    <div class="dipAgePoint" id="agePointsDisp">Age Points:</div>
+                    <br>
+
+
+                    <select name="" id="continent" class="continent">
+                        <option value="">Select Continent</option>
+                        <option value="africa">Africa</option>
+                        <option value="asia">Asia</option>
+                        <option value="northAmerica">North America</option>
+                        <option value="southAmerica">South America</option>
+                        <option value="otherCountries">otherCountries</option>
+                    </select><br><br>
+                    <label id="continentError"></label>
+
+
+                    <select name="" id="africa" class="country">
+                        <option value="">Ghana</option>
+                        <option value="">Nigeria</option>
+                        <option value="">Senegal</option>
+                    </select>
+
+                    <select name="" id="asia" class="country">
+                        <option value="">China</option>
+                        <option value="">Japan</option>
+                        <option value="">India</option>
+                    </select>
+
+                    <select name="" id="northAmerica" class="country">
+                        <option value="">Canada</option>
+                        <option value="">Cuba</option>
+                        <option value="">Costa Rica</option>
+                    </select>
+
+                    <select name="" id="southAmerica" class="country">
+                        <option value="">Argentina</option>
+                        <option value="">Brazil</option>
+                        <option value="">Bolivia</option>
+
+                    </select>
+
+                    <select name="" id="otherCountries" class="country">
+                        <option value="">Poland</option>
+                        <option value="">Russia</option>
+                        <option value="">Portugal</option>
+                    </select>
+                </form>
+                <button type="button" id="button">check</button>
+                <div class="dispOverallPoint" id="overallMark">OVERALL POINT: </div>
+            </div>
+
+            <div class="middleCol">
+                <div class="formDiv2">
+                    <h3>SUBJECTS</h3>
+                    <form action="">
+                        <select disabled name="" id="maths" class="mathsComp">
+                            <option value="">Mathematics</option>
+                        </select><br>
+                        <label id="mathsError"></label>
+                        <br>
+
+                        <select disabled name="" id="english" class="engComp">
+                            <option value="">English Lang</option>
+                            <label id="englishError"></label>
+                        </select><br><br>
+
+                        <select name="" id="chemistry" class="subjects">
+                            <option value="">Select Subject</option>
+                            <option value="Biology">Biology</option>
+                            <option value="Chemistry">Chemistry</option>
+                            <option value="Physics">Physics</option>
+                            <option value="Economics">Economics</option>
+                            <option value="Geography">Geography</option>
+                            <option value="Agric">Agric</option>
+                        </select><br><br>
+                        <label id="chemistryError"></label>
+                        <br><br>
+
+                        <select name="" id="geography" class="subjects">
+                            <option value="">Select Subject</option>
+                            <option value="Biology">Biology</option>
+                            <option value="Chemistry">Chemistry</option>
+                            <option value="Physics">Physics</option>
+                            <option value="Economics">Economics</option>
+                            <option value="Geography">Geography</option>
+                            <option value="Agric">Agric</option>
+                        </select><br><br>
+                        <label id="geographyError"></label>
+                        <br><br>
+
+                        <select name="" id="physics" class="subjects">
+                            <option value="">Select Subject</option>
+                            <option value="Biology">Biology</option>
+                            <option value="Chemistry">Chemistry</option>
+                            <option value="Physics">Physics</option>
+                            <option value="Economics">Economics</option>
+                            <option value="Geography">Geography</option>
+                            <option value="Agric">Agric</option>
+                        </select><br><br>
+                        <label id="physicsError"></label>
+                        <br><br>
+
+                        <select name="" id="economics" class="subjects">
+                            <option value="">Select Subject</option>
+                            <option value="Biology">Biology</option>
+                            <option value="Chemistry">Chemistry</option>
+                            <option value="Physics">Physics</option>
+                            <option value="Economics">Economics</option>
+                            <option value="Geography">Geography</option>
+                            <option value="Agric">Agric</option>
+                        </select><br><br>
+                        <label id="economicsError"></label>
+                        <br><br>
+
+                        <select name="" id="agric" class="subjects">
+                            <option value="">Select Subject</option>
+                            <option value="Biology">Biology</option>
+                            <option value="Chemistry">Chemistry</option>
+                            <option value="Physics">Physics</option>
+                            <option value="Economics">Economics</option>
+                            <option value="Geography">Geography</option>
+                            <option value="Agric">Agric</option>
+                        </select><br><br>
+                        <label id="agricError"></label>
+                        <br><br>
+
+                        <select name="" id="biology" class="subjects">
+                            <option value="">Select Subject</option>
+                            <option value="Biology">Biology</option>
+                            <option value="Chemistry">Chemistry</option>
+                            <option value="Physics">Physics</option>
+                            <option value="Economics">Economics</option>
+                            <option value="Geography">Geography</option>
+                            <option value="Agric">Agric</option>
+                        </select><br><br>
+                        <label id="biologyError"></label>
+                </div>
+
+                <div class="rightCol">
+                    <div class="formDiv3">
+                        <h3>SCORES</h3>
+                        <form action="">
+                            <input type="number" id="mathScores" placeholder="Enter Score" class="score"><br><br>
+
+                            <input type="number" id="engScore" placeholder="Enter Score" class="score"><br><br>
+
+                            <input type="number" id="chemScore" placeholder="Enter Score" class="score"><br><br>
+                            <label id="chemScoreError"></label>
+                            <br><br>
+                            <input type="number" id="phyScore" placeholder="Enter Score" class="score"><br><br>
+                            <label id="phyScoreError"></label>
+                            <br><br>
+                            <input type="number" id="ecoScore" placeholder="Enter Score" class="score"><br><br>
+                            <label id="ecoScoreError"></label>
+                            <br><br>
+                            <input type="number" id="geoScore" placeholder="Enter Score" class="score"><br><br>
+                            <label id="geoScoreError"></label>
+                            <br><br>
+                            <input type="number" id="agricScore" placeholder="Enter Score" class="score"><br><br>
+                            <label id="agricScoreError"></label>
+                            <br><br>
+                            <input type="number" id="bioScore" placeholder="Enter Score" class="score"><br><br>
+                            <label id="bioScoreError"></label><br><br>
+                            <div class="totalSubScr" id="totalSubScrText">Total Subject Score:</div>
+                            <div class="totSubAvg" id="average">Avaerage Score:</div>
+                            <div class="subPoint" id="subjectsPoint"> Subjects Points:</div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="myChartCont">
+            <canvas id="myChart"></canvas>
+        </div>
+    </div>
+    
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
